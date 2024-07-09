@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000'; // Adjust this to your backend URL
+const API_URL = 'https://uidb.onrender.com'; // Adjust this to your backend URL
 
 const handleLogout = async () => {
   localStorage.removeItem('token');

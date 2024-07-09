@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "http://localhost:5000",
+  "proxy": "https://uidb.onrender.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -30,6 +30,7 @@
     "react-router-dom": "^6.24.0",
     "react-scripts": "^5.0.1",
     "react-syntax-highlighter": "^15.5.0",
+    "vercel": "^34.3.1",
     "web-vitals": "^4.2.1",
     "zod": "^3.23.8"
   },
