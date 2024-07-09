@@ -1,0 +1,46 @@
+{
+  "name": "uidb-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "framer-motion": "^11.2.12",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv": "^2.2.2",
+    "react-datepicker": "^7.2.0",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^5.2.1",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.24.0",
+    "react-scripts": "^5.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "web-vitals": "^4.2.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.1"
+  }
+}

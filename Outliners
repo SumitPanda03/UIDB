@@ -1,0 +1,28 @@
+Connect Database 
+- Add feature to show multiple connections under same user 
+- Check for same database existence 
+- During registration also check for same database 
+
+Create Table 
+- If multiple database, then let user select database first and then create tables
+- add primary key, foreign key option to columns 
+
+History of sql queries for a user in dashboard
+
+Fix sidebar not loading automatically after login
+
+Make a hook for table data and structure
+
+give an option to select a PKey and update that in backend code to change it in sql 
+
+Export Table 
+
+A cmd line interface to execute queries from website 
+
+A feature that will show the user the query before sending it to backend , and allow user to edit the query if needed -- This feature can also be toggled in settings(a new componenet)-- maybe create this as a hook too bcz it will used many times( udpate data query preview)
+
+Return the query using syntax highlight in all options(take help from create table componene)
+
+
+
+
