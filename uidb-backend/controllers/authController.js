@@ -27,7 +27,7 @@ const register = async (req, res) => {
         password: hashedPassword,
         sqlConnectionDetails: {
           ...sqlConnectionDetails,
-          password: hashedSqlPassword
+          // password: hashedSqlPassword
         }
       });
   
