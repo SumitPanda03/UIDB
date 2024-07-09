@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser())
 // app.use(cors());
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://uidb.vercel.app',
   credentials: true 
 };
 
